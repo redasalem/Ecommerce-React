@@ -23,7 +23,7 @@
     align-items: center;
     background: var(--bg_color);
     border-radius: 30px;
-    border: 1px solid var(--main_color);
+    border: 1px solid rgb(231, 60, 191);
 
   }
   .top-header .search-box input{
@@ -36,7 +36,7 @@
   .top-header .search-box button{
     height: 45px;
     width: 60px;
-    background: var(--main_color);
+    background: rgb(231, 60, 191);
     font-size: 18px;
     cursor: pointer;
     border-radius:0 30px 30px 0;
@@ -69,7 +69,7 @@
    border-radius: 50%;
   }
   .btn-header{
-    background: var(--main_color);
+    background: rgb(210, 27, 230);
   }
   .btn-header .container{
     display: flex;
@@ -100,6 +100,7 @@
     max-height: 400px;
     overflow-y: auto;
     clip-path: polygon(0 0 ,100% 0, 100% 0,0 0); 
+    z-index: 999;
     transition: all 0.4s ease;
    
   }
@@ -122,7 +123,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--main_color);
+    background-color:rgb(229, 38, 207);
     padding: 0 15px;
     cursor: pointer;
   }
@@ -146,7 +147,7 @@
     
   }
   .btn-header .nav-links li.active{
-    background-color: #3e7488;
+    background-color: #d76ce0;
     
   
    
